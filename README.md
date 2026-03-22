@@ -7,7 +7,7 @@ The project combines computer vision, deep learning, and algorithmic problem sol
 - Extracts Sudoku grids from images  
 - Recognizes handwritten digits  
 - Solves the puzzle algorithmically  
-- Provides an interactive solving experience  
+- Provides an interactive solving experience
 
 Unlike many end-to-end approaches, this system is modular and explainable.
 
@@ -47,10 +47,14 @@ The goal of this thesis is to design a robust and interpretable system for solvi
 - **Difficulty classification accuracy:** 38.67%  
 
 ## 📁 Structure
-├── src/ # Core implementation
-├── models/ # Trained CNN models
-├── data/ # Input images / datasets
-├── results/ # Outputs and evaluations
+├── src/ **Core implementation**
+
+├── models/ **Trained CNN models**
+
+├── data/ **Input images / datasets**
+
+├── results/ **Outputs and evaluations**
+
 └── README.md
 
 ## ⚙️ Setup
