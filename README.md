@@ -47,16 +47,30 @@ The goal of this thesis is to design a robust and interpretable system for solvi
 - **Difficulty classification accuracy:** 38.67%  
 
 ## 📁 Structure
-├── src/ **Core implementation**
-
-├── models/ **Trained CNN models**
-
-├── data/ **Input images / datasets**
-
-├── results/ **Outputs and evaluations**
-
+```text
+├── Puzzles/
+      ├── easy/
+      ├── easy_printed/
+      ├── hard/
+      ├── hard_printed/
+      ├── moderate/
+      └── moderate_printed
+├── models/
+      ├── Combined_full.py
+      ├── Preprocessing_full.py
+      ├── Save_Solution_as_Image.py
+      ├── graphs.py
+      ├── solve_sudoku.py
+      ├── trained_model_classification_MNIST.keras
+      └── utils_MNIST_Classify.py
+├── Report Images/
+      ├── Implementation_Final/
+      └── Implementation_initial/
+├── sudoku_digits/
+├── Classification Results (version 1).xlsx
+├── LICENSE
 └── README.md
-
+```
 ## ⚙️ Setup
 ```bash
 git clone https://github.com/kolianedgar/Sudoku_solver_TYP.git
