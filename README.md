@@ -78,7 +78,7 @@ cd Sudoku_solver_TYP
 
 ## 👤 Author
 
-- Edgar Kolian (https://github.com/kolianedgar)
+* **Edgar Kolian** (github.com/kolianedgar)
 
 ## 📄 Notes
 
